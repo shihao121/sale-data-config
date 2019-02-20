@@ -1,0 +1,11 @@
+server:
+  port: 8081
+  
+spring:
+  application:
+    name: sale-data-server
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8281/eureka/
