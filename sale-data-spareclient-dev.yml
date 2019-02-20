@@ -1,3 +1,5 @@
+socketServerUrl: ws://localhost:8081/websocket/spare
+
 #redis
 spring:
   redis:
