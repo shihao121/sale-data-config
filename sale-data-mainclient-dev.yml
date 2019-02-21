@@ -15,6 +15,11 @@ spring:
 
   application:
     name: sale-data-mainclient
+  security:
+    user:
+      name: user
+      password: password
+
 server:
   port: 8082
 
